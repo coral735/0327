@@ -5,29 +5,67 @@
 	<meta charset="utf-8">
 	<title>꼴라쥬</title>
 	<style>
-		div{ width:800px; height: 400px; margin:auto; background-color: black; margin-top: 3em;  padding:1em; position:relative;}
-		h1{ color: white; position:relative; font-size:50px;}
-		p{ color: white; font-size:12px; }
-		img{width:70%;}
-		#cl img{ position:absolute; left:200px;}
-		#cl p {width :300px; position:absolute; left:20px;}
-		#cl2 img{position:absolute; left:-200px; top:-130px; width:400px;}
-		#cl2 h1{position:absolute; left:600px; top:120px; }
-		#cl2 p{position:absolute; width:200px; top:200px; left:550px; }
+		
+		div{margin:auto; background-color: black; margin-top: 3em;  padding:1em; position:relative;}
+		body{background: url('space.jpg') ;}
+		img{width:30%;}
+
+		.ca { position:absolute; top:420px; left:930px; width:40%;}
+		.mn { position:absolute; top:180px; left:360px; width:70%;}
+		.ea { position:absolute; top:130px; left:-300px; width:85%;}
+		.to { position:absolute; top:-230px; left:-600px; width:90%;}
+		.cw { position:absolute; top:-40px; left:-40px;}
+		.mo { position:absolute; top:-500px; left:500px; width:200%;}
+		.te { position:absolute; top:430px; left:-600px; width:35%;}
+		h1{ color: white; position:relative; font-size:70px;}
+		p{ color: white; font-size:21px; }
+		#cl {position: absolute; width: 300px; height: 120px; top: 40px; left:800px; }
+		
+
+		#cl h1{position:absolute; top:-30px; left:50px;} 
+		#cl p {position:absolute; top:70px; left:230px; }
+		#cl img{position: absolute; transition: all 3s;}	
+		#cl img:hover {width: 300px; left: 580px; margin-top: 25em; position: absolute;}
+	
+
+		#cl2 {position: absolute; width: 500px; height: 200px; top: 340px; left: 700px;}
+		#cl2 h1{position:absolute; left:600px; top:100px; }
+		#cl2 p{position:absolute; width:420px; top:10px; left:60px; }
+		#cl2 img{position: absolute; transition: all 3s;}
+		#cl2 img:hover {position: absolute; transform: rotateY(500deg);}
+
+		
 	</style>
 </head>
 
 <body>
 	<div id="cl">
-		<img src="moon.jpg">
-		<h1>moon</h1>
-		<p>달의 모양이 변하는 이유는 달이 지구 주위를 돌면서 햇빛에 반사되어 눈에 보이는 부분이 달라지기 때문이다. 음력 1, 2일경에는 달이 거의 보이지 않다가 3일경에는 서쪽 하늘에 초승달이 보이다가 사라진다. 음력 7, 8일경에는 남쪽 하늘에 상현달이 나타나며 15일이 되면 동쪽 하늘에서 보름달이 떠오른다. 이후로는 달이 점점 기울며 음력 22일경이 되면 하현달이 되어 나타난다. 달은 더욱 작아져서 음력 28일경이 되면 그믐달로 변하며 30일이 되면 달은 보이지 않는다.</p>
+		<img src="./img/moon.png" class="mn"/>
+		<img src="./img/cw.png" class="cw"/>
+		<h1>SPACE</h1>
+		<p>우주</p>
 	</div>
 	<div id="cl2">
-		<img src="earth.jpg">
-		<h1>earth</h1>
-		<p>우리가 살고 있는 푸른 행성이 바로 지구이다. 우주에서 봤을 때 푸른색의 바다, 녹색의 산과 갈색의 흙에 흰색의 구름이 조화를 이루고 있는 아름다운 행성이다.</p>
+		<img src="./img/earth.png" class="ea"/>
+		<img src="./img/to.png" class="to"/>
+		<img src="./img/mo.png" class="mo"/>
+		<img src="./img/te.png" class="te"/>
+	
+
+		<p>사람이 죽으면 소멸하는것이라 생각하지만,
+		<br>
+		<br>
+	    육체는 흙으로 돌아가고, 
+	    <br>
+	    <br>
+	    사람들의 정신은 모여, 
+	    <br>
+	    <br>
+	    계속 우주를 커지게하고있는거라고 생각한다.</p>
 	</div>
+
+		<img src="./img/ca.png" class="ca"/>
+
 </body>
 
 </html>
